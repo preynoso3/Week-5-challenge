@@ -122,13 +122,21 @@ print(res)
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
-# print(employee['weight'])
+employee = {'first_name': 'steven',
+            'last_name': 'pretti',
+             'weight': 37.2,
+              'size': 5.77,
+             'height': 6}
+print(employee['weight'])
 
+warrior = { 'made_by': 'hbomax',
+            'release_date': 2018,
+            'budget': '24millon',
+            'rotten_tomatoes_score':'fresh'}
+warrior['score ' ] = 78
+print(warrior.items())
+print(warrior.keys())
+print(warrior.values())
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
 # name: Karen
@@ -136,7 +144,13 @@ print(res)
 # age: 35
 # occupation: Journalist
 # The names of the keys and values must be equal to the ones indicated above.
-
+my_dict={'name': 'Karen',
+        'surname':'Jurgens',
+        'age': 35,
+        'occupation':'Journalist'}
+print(my_dict.items())
+print(my_dict.keys())
+print(my_dict.values())
 #challenge 2:
 # Use print to returns the second item of the list called points2, inside the following dictionary.
 
