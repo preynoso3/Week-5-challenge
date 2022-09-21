@@ -44,10 +44,16 @@ print(list)
 #Extract the elements of the following tuple into four variables: a, b, c, d
 
 my_tuple = (1, 2, 3, 4)
-
+a,b,c,d=my_tuple
+print(a,b,c,d)
 #################################################sets######################################################
-
-
+# sets are a mutable data structurefor storing information whose elements does not reapeat
+# two ways of doing sets
+set1= ((1,1,1,2,3,4))
+print(set1)
+set2 = {1,2,3,4,4,4,4,4,4,5}
+print(set2)
+print(5 in set1)
 # Join the following sets into one, called my_set_3:
 
 {1, 2, "three", "four"}
